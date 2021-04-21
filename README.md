@@ -1,6 +1,6 @@
 # Reliable-User-Datagram-Protocol
 
-RUDP protocol implemented in python along with client and server
+Selective Repeat protocol implemented over RUDP in python along with Client and Server 
 
 # To install pyqt5
     
