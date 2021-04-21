@@ -1,0 +1,230 @@
+\hypertarget{classclient_1_1Client}{}\doxysection{client.\+Client Class Reference}
+\label{classclient_1_1Client}\index{client.Client@{client.Client}}
+
+
+\mbox{\hyperlink{classclient_1_1Client}{Client}} Class\+: Makes a file request to the server.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classclient_1_1Client_ad4e52579b3d49e230af68355c2251039}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classclient_1_1Client_a5b90b5ff58a3476a44678522ba79e769}{self\+\_\+host}}, \mbox{\hyperlink{classclient_1_1Client_a4f4b29df4d11a9447c72da203d5c9f41}{self\+\_\+port}}, \mbox{\hyperlink{classclient_1_1Client_aa97fbacea9e090dc90ea9b6fee5df74b}{target\+\_\+host}}, \mbox{\hyperlink{classclient_1_1Client_aad12853506081e1bf01ee65a2a45391c}{target\+\_\+port}}, file\+\_\+request, \mbox{\hyperlink{classclient_1_1Client_ad16ef53ebfaf11e7f511efb7e59c1bb5}{cl\+\_\+timeout}}, \mbox{\hyperlink{classclient_1_1Client_a54cee1ba94b2807dffb18894f3d9bda8}{packet\+\_\+size}}, window\+\_\+size, buffer\+\_\+size, \mbox{\hyperlink{classclient_1_1Client_a78e7bb8fda252fcd24afc5bc2207c624}{body\+\_\+size}}=8000)
+\begin{DoxyCompactList}\small\item\em Class constructor\+: Sends the connection request and recieves the file requested. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classclient_1_1Client_ad907230cb8e1346206bea942456edcf5}{send\+\_\+first\+\_\+packet}} (self)
+\begin{DoxyCompactList}\small\item\em Used to send the packet to server (first packet of three way handshake) \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classclient_1_1Client_ae51d529aaf264e2af240205c7ebbc48c}{send\+\_\+third\+\_\+packet}} (self)
+\begin{DoxyCompactList}\small\item\em Used to send the packet to server (third packet of three way handshake). \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classclient_1_1Client_a6f7b4bb91448e41698eaf48e99f46164}{global\+\_\+timer}} (self)
+\begin{DoxyCompactList}\small\item\em Global Timer\+: Used to terminate redundant connections. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classclient_1_1Client_a39378368998e72b86c6d16a152861697}{time\+\_\+elapsed}} (self)
+\begin{DoxyCompactList}\small\item\em Total time runnning. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a84f2ac1e11412b971e06dadf1e7cadae}\label{classclient_1_1Client_a84f2ac1e11412b971e06dadf1e7cadae}} 
+{\bfseries target\+\_\+host}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a7e56b557e2e64d7d104103ee81cc9c5f}\label{classclient_1_1Client_a7e56b557e2e64d7d104103ee81cc9c5f}} 
+{\bfseries target\+\_\+port}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a5d11a56cd46f4c4e79cf2cd99a99b622}\label{classclient_1_1Client_a5d11a56cd46f4c4e79cf2cd99a99b622}} 
+{\bfseries self\+\_\+host}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_ac035dfea3c747cf079e9cedc1a52677f}\label{classclient_1_1Client_ac035dfea3c747cf079e9cedc1a52677f}} 
+{\bfseries self\+\_\+port}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_aa77ae107427b5496964f6eb1f0839a7e}\label{classclient_1_1Client_aa77ae107427b5496964f6eb1f0839a7e}} 
+{\bfseries request}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a90c716b00de31d67ed1958f9c67aaf31}\label{classclient_1_1Client_a90c716b00de31d67ed1958f9c67aaf31}} 
+{\bfseries cl\+\_\+timeout}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a901508768041a845028f8fb866ed422b}\label{classclient_1_1Client_a901508768041a845028f8fb866ed422b}} 
+{\bfseries packet\+\_\+size}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_ac2721b6ba679bd03a3893610aac1489e}\label{classclient_1_1Client_ac2721b6ba679bd03a3893610aac1489e}} 
+{\bfseries body\+\_\+size}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_af7163396b869cb2d92c0ed90bdc033b2}\label{classclient_1_1Client_af7163396b869cb2d92c0ed90bdc033b2}} 
+{\bfseries window\+\_\+size}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a4df97349ff5364bed0370684d7c9b6ad}\label{classclient_1_1Client_a4df97349ff5364bed0370684d7c9b6ad}} 
+{\bfseries buffer\+\_\+size}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a7cb496e9ff0208cbce187902c6325b5a}\label{classclient_1_1Client_a7cb496e9ff0208cbce187902c6325b5a}} 
+{\bfseries s}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_ab17a3d015a57910296410437033eb6a0}\label{classclient_1_1Client_ab17a3d015a57910296410437033eb6a0}} 
+{\bfseries is\+\_\+ack\+\_\+received}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_aa53fa5b132dfd0ff11ce02dc38758f53}\label{classclient_1_1Client_aa53fa5b132dfd0ff11ce02dc38758f53}} 
+{\bfseries last\+\_\+received\+\_\+time}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a46f2e33867c243f9cbdb6f15d7205594}\label{classclient_1_1Client_a46f2e33867c243f9cbdb6f15d7205594}} 
+{\bfseries is\+\_\+data\+\_\+received}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a9b3e3266b6d7ae6685e8980f738ed3b8}\label{classclient_1_1Client_a9b3e3266b6d7ae6685e8980f738ed3b8}} 
+{\bfseries mutex} = threading.\+Lock()
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_ad7393843174372b7e95bf583f8263956}\label{classclient_1_1Client_ad7393843174372b7e95bf583f8263956}} 
+string \mbox{\hyperlink{classclient_1_1Client_ad7393843174372b7e95bf583f8263956}{request}} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em requested file name \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_aa97fbacea9e090dc90ea9b6fee5df74b}\label{classclient_1_1Client_aa97fbacea9e090dc90ea9b6fee5df74b}} 
+string \mbox{\hyperlink{classclient_1_1Client_aa97fbacea9e090dc90ea9b6fee5df74b}{target\+\_\+host}} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em server ip address \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_aad12853506081e1bf01ee65a2a45391c}\label{classclient_1_1Client_aad12853506081e1bf01ee65a2a45391c}} 
+int \mbox{\hyperlink{classclient_1_1Client_aad12853506081e1bf01ee65a2a45391c}{target\+\_\+port}} = 0
+\begin{DoxyCompactList}\small\item\em server port \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_a5b90b5ff58a3476a44678522ba79e769}\label{classclient_1_1Client_a5b90b5ff58a3476a44678522ba79e769}} 
+string \mbox{\hyperlink{classclient_1_1Client_a5b90b5ff58a3476a44678522ba79e769}{self\+\_\+host}} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em client ip address \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_a4f4b29df4d11a9447c72da203d5c9f41}\label{classclient_1_1Client_a4f4b29df4d11a9447c72da203d5c9f41}} 
+int \mbox{\hyperlink{classclient_1_1Client_a4f4b29df4d11a9447c72da203d5c9f41}{self\+\_\+port}} = 0
+\begin{DoxyCompactList}\small\item\em client port \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_a54cee1ba94b2807dffb18894f3d9bda8}\label{classclient_1_1Client_a54cee1ba94b2807dffb18894f3d9bda8}} 
+int \mbox{\hyperlink{classclient_1_1Client_a54cee1ba94b2807dffb18894f3d9bda8}{packet\+\_\+size}} = 0
+\begin{DoxyCompactList}\small\item\em size of packet received \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_a78e7bb8fda252fcd24afc5bc2207c624}\label{classclient_1_1Client_a78e7bb8fda252fcd24afc5bc2207c624}} 
+int \mbox{\hyperlink{classclient_1_1Client_a78e7bb8fda252fcd24afc5bc2207c624}{body\+\_\+size}} = 0
+\begin{DoxyCompactList}\small\item\em size of body of the packet received \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_a737abd745b4594649d8bb13c7155803d}\label{classclient_1_1Client_a737abd745b4594649d8bb13c7155803d}} 
+dictionary \mbox{\hyperlink{classclient_1_1Client_a737abd745b4594649d8bb13c7155803d}{packet\+\_\+list}} = \{\}
+\begin{DoxyCompactList}\small\item\em list of all packets received \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_a44bf3a219d387906dd9b4c28124ecb9c}\label{classclient_1_1Client_a44bf3a219d387906dd9b4c28124ecb9c}} 
+int \mbox{\hyperlink{classclient_1_1Client_a44bf3a219d387906dd9b4c28124ecb9c}{last\+\_\+received\+\_\+time}} = 0
+\begin{DoxyCompactList}\small\item\em last received time \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_aa1e58ba2ba8232ed9e0bea03ca963dc7}\label{classclient_1_1Client_aa1e58ba2ba8232ed9e0bea03ca963dc7}} 
+\mbox{\hyperlink{classclient_1_1Client_aa1e58ba2ba8232ed9e0bea03ca963dc7}{start\+\_\+time}} = time.\+time()
+\begin{DoxyCompactList}\small\item\em client start time \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_a77db66908fe066a9fca9fad6b0064651}\label{classclient_1_1Client_a77db66908fe066a9fca9fad6b0064651}} 
+string \mbox{\hyperlink{classclient_1_1Client_a77db66908fe066a9fca9fad6b0064651}{write\+\_\+list}} = b\char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em list of all bytes \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_ad16ef53ebfaf11e7f511efb7e59c1bb5}\label{classclient_1_1Client_ad16ef53ebfaf11e7f511efb7e59c1bb5}} 
+int \mbox{\hyperlink{classclient_1_1Client_ad16ef53ebfaf11e7f511efb7e59c1bb5}{cl\+\_\+timeout}} = 0
+\begin{DoxyCompactList}\small\item\em has the object timed out \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_a9b93c49f31a27eabd42d13165ee7e02d}\label{classclient_1_1Client_a9b93c49f31a27eabd42d13165ee7e02d}} 
+int \mbox{\hyperlink{classclient_1_1Client_a9b93c49f31a27eabd42d13165ee7e02d}{is\+\_\+data\+\_\+received}} = 0
+\begin{DoxyCompactList}\small\item\em Flag to check if data receiving has started. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classclient_1_1Client_ae069a5480dd05d49a15b24de4cd4dd8c}\label{classclient_1_1Client_ae069a5480dd05d49a15b24de4cd4dd8c}} 
+int {\bfseries is\+\_\+ack\+\_\+received} = 0
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_a4293158e43ea7efd9eae19cb2fe8efa5}\label{classclient_1_1Client_a4293158e43ea7efd9eae19cb2fe8efa5}} 
+int {\bfseries window\+\_\+size} = 0
+\item 
+\mbox{\Hypertarget{classclient_1_1Client_aadf0d188c650ab046d2c51e1bf23de3a}\label{classclient_1_1Client_aadf0d188c650ab046d2c51e1bf23de3a}} 
+int {\bfseries buffer\+\_\+size} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classclient_1_1Client}{Client}} Class\+: Makes a file request to the server. 
+
+Makes a request for the filename, passed as an argument from the G\+UI, to the server The server should be up and running before running the client 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classclient_1_1Client_ad4e52579b3d49e230af68355c2251039}\label{classclient_1_1Client_ad4e52579b3d49e230af68355c2251039}} 
+\index{client.Client@{client.Client}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!client.Client@{client.Client}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def client.\+Client.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{self\+\_\+host,  }\item[{}]{self\+\_\+port,  }\item[{}]{target\+\_\+host,  }\item[{}]{target\+\_\+port,  }\item[{}]{file\+\_\+request,  }\item[{}]{cl\+\_\+timeout,  }\item[{}]{packet\+\_\+size,  }\item[{}]{window\+\_\+size,  }\item[{}]{buffer\+\_\+size,  }\item[{}]{body\+\_\+size = {\ttfamily 8000} }\end{DoxyParamCaption})}
+
+
+
+Class constructor\+: Sends the connection request and recieves the file requested. 
+
+Initializes the client, sends connection request to server, recieves files, stores files, ends connection 
+\begin{DoxyParams}{Parameters}
+{\em self} & Object Pointer \\
+\hline
+{\em self\+\_\+host} & object ip \\
+\hline
+{\em self\+\_\+port} & obejct port \\
+\hline
+{\em target\+\_\+host} & target ip \\
+\hline
+{\em target\+\_\+port} & target port \\
+\hline
+{\em file\+\_\+request} & file name \\
+\hline
+{\em cl\+\_\+timeout} & timeout value \\
+\hline
+{\em packet\+\_\+size} & packet size \\
+\hline
+{\em body\+\_\+size} & body size \\
+\hline
+{\em buffer\+\_\+size} & buffer size \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classclient_1_1Client_a6f7b4bb91448e41698eaf48e99f46164}\label{classclient_1_1Client_a6f7b4bb91448e41698eaf48e99f46164}} 
+\index{client.Client@{client.Client}!global\_timer@{global\_timer}}
+\index{global\_timer@{global\_timer}!client.Client@{client.Client}}
+\doxysubsubsection{\texorpdfstring{global\_timer()}{global\_timer()}}
+{\footnotesize\ttfamily def client.\+Client.\+global\+\_\+timer (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Global Timer\+: Used to terminate redundant connections. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & Obejct pointer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classclient_1_1Client_ad907230cb8e1346206bea942456edcf5}\label{classclient_1_1Client_ad907230cb8e1346206bea942456edcf5}} 
+\index{client.Client@{client.Client}!send\_first\_packet@{send\_first\_packet}}
+\index{send\_first\_packet@{send\_first\_packet}!client.Client@{client.Client}}
+\doxysubsubsection{\texorpdfstring{send\_first\_packet()}{send\_first\_packet()}}
+{\footnotesize\ttfamily def client.\+Client.\+send\+\_\+first\+\_\+packet (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Used to send the packet to server (first packet of three way handshake) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & Object Pointer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classclient_1_1Client_ae51d529aaf264e2af240205c7ebbc48c}\label{classclient_1_1Client_ae51d529aaf264e2af240205c7ebbc48c}} 
+\index{client.Client@{client.Client}!send\_third\_packet@{send\_third\_packet}}
+\index{send\_third\_packet@{send\_third\_packet}!client.Client@{client.Client}}
+\doxysubsubsection{\texorpdfstring{send\_third\_packet()}{send\_third\_packet()}}
+{\footnotesize\ttfamily def client.\+Client.\+send\+\_\+third\+\_\+packet (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Used to send the packet to server (third packet of three way handshake). 
+
+The packet contains the name of the file requested
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & Object Pointer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classclient_1_1Client_a39378368998e72b86c6d16a152861697}\label{classclient_1_1Client_a39378368998e72b86c6d16a152861697}} 
+\index{client.Client@{client.Client}!time\_elapsed@{time\_elapsed}}
+\index{time\_elapsed@{time\_elapsed}!client.Client@{client.Client}}
+\doxysubsubsection{\texorpdfstring{time\_elapsed()}{time\_elapsed()}}
+{\footnotesize\ttfamily def client.\+Client.\+time\+\_\+elapsed (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Total time runnning. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & Obejct pointer \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+client.\+py\end{DoxyCompactItemize}

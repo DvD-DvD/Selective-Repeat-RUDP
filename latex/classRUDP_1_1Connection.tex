@@ -1,0 +1,195 @@
+\hypertarget{classRUDP_1_1Connection}{}\doxysection{R\+U\+D\+P.\+Connection Class Reference}
+\label{classRUDP_1_1Connection}\index{RUDP.Connection@{RUDP.Connection}}
+
+
+Used to create a connection, transfer data between server and client.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classRUDP_1_1Connection_ace88fd3c47481c655492b6c22e5a3914}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classRUDP_1_1Connection_a9c27387139dfd5d93d67d3ffb910fb84}{packet\+\_\+size}}=10024, \mbox{\hyperlink{classRUDP_1_1Connection_a4cc599f803fcb4eed6a1d4eb6c63e156}{timeoutval}}=30, window\+\_\+size=3, buffer\+\_\+size=6)
+\begin{DoxyCompactList}\small\item\em Class constructor. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classRUDP_1_1Connection_a8c4931f116d78933333ab7b221477bac}{send}} (self, packet, target\+\_\+host, port)
+\begin{DoxyCompactList}\small\item\em Send packet to client or send acknowledgement to server. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classRUDP_1_1Connection_a281257a6df196b07f2b68c7005ccf419}{bind}} (self, target\+\_\+host, port)
+\begin{DoxyCompactList}\small\item\em Bind server/client. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classRUDP_1_1Connection_a5ff15fc4c6725831c2931fed64410c7f}{recv}} (self, target\+\_\+host, port)
+\begin{DoxyCompactList}\small\item\em Receive packet from server. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classRUDP_1_1Connection_ad56715565798f97851024db7cf0020e5}{close}} (self)
+\begin{DoxyCompactList}\small\item\em Close socket. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classRUDP_1_1Connection_a62bc1ef6965f67dcc4ab70c05fabc128}{verify\+Checksum}} (self, packet, chk)
+\begin{DoxyCompactList}\small\item\em Verify if packet is not damaged. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classRUDP_1_1Connection_a506a4dcd65232201abc1badfca9e878f}\label{classRUDP_1_1Connection_a506a4dcd65232201abc1badfca9e878f}} 
+{\bfseries packet\+\_\+size}
+\item 
+\mbox{\Hypertarget{classRUDP_1_1Connection_ab7d99f9efa1b26e60706ea2f97ec79b8}\label{classRUDP_1_1Connection_ab7d99f9efa1b26e60706ea2f97ec79b8}} 
+{\bfseries timeoutval}
+\item 
+\mbox{\Hypertarget{classRUDP_1_1Connection_ab225a6c31dbe9b7ef0c41864a9393a0f}\label{classRUDP_1_1Connection_ab225a6c31dbe9b7ef0c41864a9393a0f}} 
+{\bfseries window\+\_\+size}
+\item 
+\mbox{\Hypertarget{classRUDP_1_1Connection_ab7038420572e8d6aaa809f8d6d6761c9}\label{classRUDP_1_1Connection_ab7038420572e8d6aaa809f8d6d6761c9}} 
+{\bfseries buffer\+\_\+size}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classRUDP_1_1Connection_a9c27387139dfd5d93d67d3ffb910fb84}\label{classRUDP_1_1Connection_a9c27387139dfd5d93d67d3ffb910fb84}} 
+int \mbox{\hyperlink{classRUDP_1_1Connection_a9c27387139dfd5d93d67d3ffb910fb84}{packet\+\_\+size}} = 0
+\begin{DoxyCompactList}\small\item\em packet size \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRUDP_1_1Connection_ab48e2a964c37f7313098d83d2d8997b7}\label{classRUDP_1_1Connection_ab48e2a964c37f7313098d83d2d8997b7}} 
+\mbox{\hyperlink{classRUDP_1_1Connection_ab48e2a964c37f7313098d83d2d8997b7}{s}} = socket.\+socket(socket.\+A\+F\+\_\+\+I\+N\+ET,socket.\+S\+O\+C\+K\+\_\+\+D\+G\+R\+AM)
+\begin{DoxyCompactList}\small\item\em socket \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRUDP_1_1Connection_a4cc599f803fcb4eed6a1d4eb6c63e156}\label{classRUDP_1_1Connection_a4cc599f803fcb4eed6a1d4eb6c63e156}} 
+int \mbox{\hyperlink{classRUDP_1_1Connection_a4cc599f803fcb4eed6a1d4eb6c63e156}{timeoutval}} = 0
+\begin{DoxyCompactList}\small\item\em timeout value \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRUDP_1_1Connection_a9d1b35d174dcb63ac4b0550c00b0d6ea}\label{classRUDP_1_1Connection_a9d1b35d174dcb63ac4b0550c00b0d6ea}} 
+int {\bfseries window\+\_\+size} = 0
+\item 
+\mbox{\Hypertarget{classRUDP_1_1Connection_aaf67a6e112a455fea3cc157aa620e68a}\label{classRUDP_1_1Connection_aaf67a6e112a455fea3cc157aa620e68a}} 
+int {\bfseries buffer\+\_\+size} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Used to create a connection, transfer data between server and client. 
+
+Creates a udp connection with reliability between the server and the client.
+
+Starts with a 3 way handshake and then the file trnasfer starts It checks for acknowledgement for each packet sent After a time of 3 seconds, if an ack for a packet is still not received, then the packet is sent again This can take place for a maximum of 5 times or maximum time of 30s (default values), whichever comes first 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRUDP_1_1Connection_ace88fd3c47481c655492b6c22e5a3914}\label{classRUDP_1_1Connection_ace88fd3c47481c655492b6c22e5a3914}} 
+\index{RUDP.Connection@{RUDP.Connection}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!RUDP.Connection@{RUDP.Connection}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def R\+U\+D\+P.\+Connection.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{packet\+\_\+size = {\ttfamily 10024},  }\item[{}]{timeoutval = {\ttfamily 30},  }\item[{}]{window\+\_\+size = {\ttfamily 3},  }\item[{}]{buffer\+\_\+size = {\ttfamily 6} }\end{DoxyParamCaption})}
+
+
+
+Class constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & The object pointer \\
+\hline
+{\em packet\+\_\+size} & packet size \\
+\hline
+{\em max\+\_\+retransmits} & max no of retransmits \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRUDP_1_1Connection_a281257a6df196b07f2b68c7005ccf419}\label{classRUDP_1_1Connection_a281257a6df196b07f2b68c7005ccf419}} 
+\index{RUDP.Connection@{RUDP.Connection}!bind@{bind}}
+\index{bind@{bind}!RUDP.Connection@{RUDP.Connection}}
+\doxysubsubsection{\texorpdfstring{bind()}{bind()}}
+{\footnotesize\ttfamily def R\+U\+D\+P.\+Connection.\+bind (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{target\+\_\+host,  }\item[{}]{port }\end{DoxyParamCaption})}
+
+
+
+Bind server/client. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & The object pointer \\
+\hline
+{\em target\+\_\+host} & server/client ip \\
+\hline
+{\em port} & server/client port \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRUDP_1_1Connection_ad56715565798f97851024db7cf0020e5}\label{classRUDP_1_1Connection_ad56715565798f97851024db7cf0020e5}} 
+\index{RUDP.Connection@{RUDP.Connection}!close@{close}}
+\index{close@{close}!RUDP.Connection@{RUDP.Connection}}
+\doxysubsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily def R\+U\+D\+P.\+Connection.\+close (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Close socket. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & The object pointer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRUDP_1_1Connection_a5ff15fc4c6725831c2931fed64410c7f}\label{classRUDP_1_1Connection_a5ff15fc4c6725831c2931fed64410c7f}} 
+\index{RUDP.Connection@{RUDP.Connection}!recv@{recv}}
+\index{recv@{recv}!RUDP.Connection@{RUDP.Connection}}
+\doxysubsubsection{\texorpdfstring{recv()}{recv()}}
+{\footnotesize\ttfamily def R\+U\+D\+P.\+Connection.\+recv (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{target\+\_\+host,  }\item[{}]{port }\end{DoxyParamCaption})}
+
+
+
+Receive packet from server. 
+
+Receive packet from server and send acknowledgement Verifies if packet is not damaged 
+\begin{DoxyParams}{Parameters}
+{\em self} & The object pointer \\
+\hline
+{\em target\+\_\+host} & server ip \\
+\hline
+{\em port} & server port \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRUDP_1_1Connection_a8c4931f116d78933333ab7b221477bac}\label{classRUDP_1_1Connection_a8c4931f116d78933333ab7b221477bac}} 
+\index{RUDP.Connection@{RUDP.Connection}!send@{send}}
+\index{send@{send}!RUDP.Connection@{RUDP.Connection}}
+\doxysubsubsection{\texorpdfstring{send()}{send()}}
+{\footnotesize\ttfamily def R\+U\+D\+P.\+Connection.\+send (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{packet,  }\item[{}]{target\+\_\+host,  }\item[{}]{port }\end{DoxyParamCaption})}
+
+
+
+Send packet to client or send acknowledgement to server. 
+
+send the requested file to the client uses utf-\/8 encoding 
+\begin{DoxyParams}{Parameters}
+{\em packet} & a \mbox{\hyperlink{classRUDP_1_1Packet}{Packet}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classRUDP_1_1Packet}{Packet}} Class 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em target\+\_\+host} & server/client ip \\
+\hline
+{\em port} & server/client port \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRUDP_1_1Connection_a62bc1ef6965f67dcc4ab70c05fabc128}\label{classRUDP_1_1Connection_a62bc1ef6965f67dcc4ab70c05fabc128}} 
+\index{RUDP.Connection@{RUDP.Connection}!verifyChecksum@{verifyChecksum}}
+\index{verifyChecksum@{verifyChecksum}!RUDP.Connection@{RUDP.Connection}}
+\doxysubsubsection{\texorpdfstring{verifyChecksum()}{verifyChecksum()}}
+{\footnotesize\ttfamily def R\+U\+D\+P.\+Connection.\+verify\+Checksum (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{packet,  }\item[{}]{chk }\end{DoxyParamCaption})}
+
+
+
+Verify if packet is not damaged. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em self} & The object pointer \\
+\hline
+{\em packet} & a \mbox{\hyperlink{classRUDP_1_1Packet}{Packet}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classRUDP_1_1Packet}{Packet}} Class 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em chk} & an integer to check if packet is not damaged \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+R\+U\+D\+P.\+py\end{DoxyCompactItemize}

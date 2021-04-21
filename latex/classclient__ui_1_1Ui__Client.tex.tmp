@@ -1,0 +1,108 @@
+\hypertarget{classclient__ui_1_1Ui__Client}{}\doxysection{client\+\_\+ui.\+Ui\+\_\+\+Client Class Reference}
+\label{classclient__ui_1_1Ui__Client}\index{client\_ui.Ui\_Client@{client\_ui.Ui\_Client}}
+
+
+Inheritance diagram for client\+\_\+ui.\+Ui\+\_\+\+Client\+:
+% FIG 0
+
+
+Collaboration diagram for client\+\_\+ui.\+Ui\+\_\+\+Client\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_ac8dea4ef02fea5f9056ff2e755a78cc9}\label{classclient__ui_1_1Ui__Client_ac8dea4ef02fea5f9056ff2e755a78cc9}} 
+def {\bfseries setup\+Ui} (self, Client)
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a09b3d45576c13911eb4c68c2e5f1ade2}\label{classclient__ui_1_1Ui__Client_a09b3d45576c13911eb4c68c2e5f1ade2}} 
+def {\bfseries retranslate\+Ui} (self, Client)
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a43e005e4384deb203a52b33014d1b3b6}\label{classclient__ui_1_1Ui__Client_a43e005e4384deb203a52b33014d1b3b6}} 
+def {\bfseries button\+\_\+clicked} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a5e6a25c37015ec96c9d3bcbc6bc31263}\label{classclient__ui_1_1Ui__Client_a5e6a25c37015ec96c9d3bcbc6bc31263}} 
+{\bfseries centralwidget}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_ac2e6b0d21c3c84609d14c800adedd29d}\label{classclient__ui_1_1Ui__Client_ac2e6b0d21c3c84609d14c800adedd29d}} 
+{\bfseries s\+\_\+ip\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a12f4ed7243540f8bf32dfda348cb6371}\label{classclient__ui_1_1Ui__Client_a12f4ed7243540f8bf32dfda348cb6371}} 
+{\bfseries sip\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a6799d8ee219dc085c70be6ceb40c1e76}\label{classclient__ui_1_1Ui__Client_a6799d8ee219dc085c70be6ceb40c1e76}} 
+{\bfseries s\+\_\+pn\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a48814c68398119f2b73e8a410a0baecf}\label{classclient__ui_1_1Ui__Client_a48814c68398119f2b73e8a410a0baecf}} 
+{\bfseries spn\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_aacfa274ba255447be0ba0908dfa1ba15}\label{classclient__ui_1_1Ui__Client_aacfa274ba255447be0ba0908dfa1ba15}} 
+{\bfseries c\+\_\+ip\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a59d6c26734bf0862a490995139e670f9}\label{classclient__ui_1_1Ui__Client_a59d6c26734bf0862a490995139e670f9}} 
+{\bfseries cip\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_aa3bbcecf1327dafa33e29e825046fe4f}\label{classclient__ui_1_1Ui__Client_aa3bbcecf1327dafa33e29e825046fe4f}} 
+{\bfseries c\+\_\+pn\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_adceb1377abe27c58d2bbb01e8a2e8a38}\label{classclient__ui_1_1Ui__Client_adceb1377abe27c58d2bbb01e8a2e8a38}} 
+{\bfseries cpn\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_aa94f9bd6f36abf7135358c4c7167809d}\label{classclient__ui_1_1Ui__Client_aa94f9bd6f36abf7135358c4c7167809d}} 
+{\bfseries reqfile\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_af1d30cf5a3f55b5f9ad494b6eca46374}\label{classclient__ui_1_1Ui__Client_af1d30cf5a3f55b5f9ad494b6eca46374}} 
+{\bfseries reqfile\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a66756bc0caa1efe5f21f2c806bdc98ee}\label{classclient__ui_1_1Ui__Client_a66756bc0caa1efe5f21f2c806bdc98ee}} 
+{\bfseries c\+\_\+status}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_abe9a8ec15e78f2c5e749077b694d5914}\label{classclient__ui_1_1Ui__Client_abe9a8ec15e78f2c5e749077b694d5914}} 
+{\bfseries cbtn}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a45d442ab9727a36f8ce0c384427c0353}\label{classclient__ui_1_1Ui__Client_a45d442ab9727a36f8ce0c384427c0353}} 
+{\bfseries pktsize\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_ae73ea0e9fd1fd9ee01fc9349354dd12e}\label{classclient__ui_1_1Ui__Client_ae73ea0e9fd1fd9ee01fc9349354dd12e}} 
+{\bfseries pktsize\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a02a4a7dd76a06cb45c74ed9133b3b381}\label{classclient__ui_1_1Ui__Client_a02a4a7dd76a06cb45c74ed9133b3b381}} 
+{\bfseries gt\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a0382744df67c23bb9a7f0ba000e23f0e}\label{classclient__ui_1_1Ui__Client_a0382744df67c23bb9a7f0ba000e23f0e}} 
+{\bfseries gt\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a8180f1d487a4cf1e73b755de5504fa22}\label{classclient__ui_1_1Ui__Client_a8180f1d487a4cf1e73b755de5504fa22}} 
+{\bfseries window\+\_\+size}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a345645e126c53f40087a9c35e681296b}\label{classclient__ui_1_1Ui__Client_a345645e126c53f40087a9c35e681296b}} 
+{\bfseries winsize\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a1c8b204440a980c963e777fc49cfb8c9}\label{classclient__ui_1_1Ui__Client_a1c8b204440a980c963e777fc49cfb8c9}} 
+{\bfseries buffer\+\_\+size\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a675b4aff5a40d5a96d6d8d7636ddedd1}\label{classclient__ui_1_1Ui__Client_a675b4aff5a40d5a96d6d8d7636ddedd1}} 
+{\bfseries buffer\+\_\+siz\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_aaffb2e2f3b1997b5c0c8fd63cd93490b}\label{classclient__ui_1_1Ui__Client_aaffb2e2f3b1997b5c0c8fd63cd93490b}} 
+{\bfseries title\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_aefc8d42984203223902db5a1acf276b2}\label{classclient__ui_1_1Ui__Client_aefc8d42984203223902db5a1acf276b2}} 
+{\bfseries body\+\_\+size\+\_\+lbl}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a1ad6ed4f1523e431d94b152acaec9040}\label{classclient__ui_1_1Ui__Client_a1ad6ed4f1523e431d94b152acaec9040}} 
+{\bfseries bodysize\+\_\+txt}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_accddba12a6621c48f6a9f36dcb89757c}\label{classclient__ui_1_1Ui__Client_accddba12a6621c48f6a9f36dcb89757c}} 
+{\bfseries menubar}
+\item 
+\mbox{\Hypertarget{classclient__ui_1_1Ui__Client_a0478c2ebf33fbec16fb08b5b05ec84f5}\label{classclient__ui_1_1Ui__Client_a0478c2ebf33fbec16fb08b5b05ec84f5}} 
+{\bfseries statusbar}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+client\+\_\+ui.\+py\end{DoxyCompactItemize}
