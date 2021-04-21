@@ -2,12 +2,12 @@
 
 RUDP protocol implemented in python along with client and server
 
-    ##To install pyqt5
+# To install pyqt5
     
     pip3 install pyqt5 / sudo apt-get install python3-pyqt5
 
 
-    ## Netem Commands for Network Emulation
+# Netem Commands for Network Emulation
      
     sudo tc qdisc add dev lo root netem delay 100ms
      
@@ -49,7 +49,8 @@ RUDP protocol implemented in python along with client and server
     sudo tc qdisc del dev lo root
 
 
-    ## To Run:
+# To Run:
+
     ## In seperate terminals
     python3 server_ui.py
     python3 client_ui.py
